@@ -1,39 +1,47 @@
+# 📚 Data Structures, Algorithms & Complexity Benchmarks
+### Competitive Programming Solutions, LeetCode Patterns, and Core CS Fundamentals
 
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://isocpp.org/)
+[![Python](https://img.shields.io/badge/Language-Python-green.svg)](https://www.python.org/)
+[![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg)](https://leetcode.com/)
+[![Author: 3xceptional](https://img.shields.io/badge/Author-3xceptional-emerald.svg)](https://github.com/3XCeptional)
 
-# DSA Notes and Solutions Repository
+A structured collection of Data Structures and Algorithms (DSA) implementations, algorithmic patterns, space-time complexity analysis, and problem solutions in C++ and Python.
 
-Welcome to my Data Structures and Algorithms (DSA) repository! This space is dedicated to documenting my journey of learning and mastering DSA. The goal is to systematically organize my notes, track progress, and provide solutions to complex problems along the way.
+---
 
-## Purpose
-- **Learning**: This repository serves as a personal reference where I compile important DSA concepts, methodologies, and problem-solving techniques.
-- **Tracking Progress**: I will continuously update the repository with new learnings, challenges, and solutions as I progress in my DSA journey.
-- **Problem Solving**: Solutions to complex DSA problems will be added with detailed explanations and comments to aid in understanding.
+## 🗺️ Algorithmic Roadmap & Patterns
 
-## Structure
-The repository is organized by topics in DSA. Each topic folder contains:
-- **Notes**: Conceptual notes and important insights.
-- **Problems**: A collection of problems related to the topic, along with explanations of the approach.
-- **Solutions**: Implementations of the solutions, including comments for clarity.
-- **Sources**: I have also added source and credits 
+### 1. Linear Data Structures
+- **Arrays & Two Pointers:** Sliding window, two-sum variations, monotonic queue, kadane's algorithm.
+- **Strings:** Rabin-Karp, KMP pattern matching, Trie prefix trees.
+- **Linked Lists:** Fast & slow pointers (Floyd's cycle detection), reverse in $K$-groups, merge $K$ sorted lists.
+- **Stacks & Queues:** Monotonic stack (Next Greater Element), min/max stack, circular buffer.
 
-## Topics Covered (So Far)
-- [ ] Arrays and Strings
-- [ ] Linked Lists
-- [ ] Stacks and Queues
-- [ ] Trees and Graphs
-- [ ] Dynamic Programming
-- [ ] Sorting and Searching Algorithms
-- [ ] Greedy Algorithms
-- [ ] Recursion and Backtracking
+### 2. Non-Linear Structures & Graphs
+- **Trees & Binary Search Trees (BST):** Level-order traversal, LCA, Morris traversal, AVL balancing.
+- **Graphs:** BFS/DFS traversals, Dijkstra's shortest path, Bellman-Ford, Topological Sort (Kahn's algorithm), Union-Find (Disjoint Set Union).
 
-## How to Use
-Feel free to explore the notes and solutions. Each solution is written in a clean and structured format to enhance readability and understanding. You can clone the repository or download specific files as needed.
+### 3. Dynamic Programming & Advanced Paradigms
+- **Dynamic Programming (DP):** 0/1 Knapsack, Longest Common Subsequence (LCS), Longest Increasing Subsequence (LIS), Matrix Chain Multiplication, Digit DP.
+- **Greedy Algorithms:** Activity selection, Huffman coding, fractional knapsack.
+- **Backtracking:** N-Queens, Sudoku solver, subset generation, word search.
+
+---
+
+## 🛠️ Usage & Compilation
 
 ```bash
-git clone https://github.com/your-username/DSA-Notes.git
+# Clone the repository
+git clone https://github.com/3XCeptional/DSA.git
+cd DSA
+
+# Compile and run C++ solutions
+g++ -O3 -std=c++17 solution.cpp -o solution
+./solution
 ```
 
-## Contributions
-This is a personal project, but if you'd like to suggest improvements or new problem sets, feel free to open an issue or submit a pull request.
+---
 
-
+## 📄 License
+MIT License. Authored with ❤️ by [3xceptional](https://github.com/3XCeptional).
